@@ -13,10 +13,26 @@ body {
     border: 1px solid rgba(0, 0, 0, .2);
     padding-bottom: 10px;
     background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
 }
 
 .main-nav {
     list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    margin-left: 40px;
+}
+
+.logo {
+    margin-left: 30px;
 }
 
 .nav-links,
