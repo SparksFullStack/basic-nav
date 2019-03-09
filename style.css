@@ -22,11 +22,13 @@ body {
 .main-nav {
     list-style-type: none;
     display: none;
+    transition: display .2s;
 }
 
 .main-nav li {
-    text-align: center;
+    text-align: right;
     margin: 15px auto;
+    margin-right: 20px;
 }
 
 .navbar-toggle {
@@ -49,4 +51,8 @@ body {
 .logo {
     text-decoration: none;
     color: rgba(255, 255, 255, .7);
+}
+
+.active {
+    display: block;
 }
